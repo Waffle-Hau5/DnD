@@ -5,7 +5,7 @@ name = input("What is your name?")
 player = p(name=name, lvl=1, race=None, hp=100, attack=100, defense=100)
 
 # these are latin pre/suffixes that combine to create a name for the monsters encountered in the lambda function below.
-prefixes = prefixes = ["Aegi", "Aure", "Draco", "Eldar", "Fenr", "Goli", "Hydr", "Igni", "Jormung", "Krak",
+prefixes = ["Aegi", "Aure", "Draco", "Eldar", "Fenr", "Goli", "Hydr", "Igni", "Jormung", "Krak",
             "Lup", "Medu", "Naga", "Ophi", "Pyr", "Quetz", "Rai", "Saur", "Taur", "Urs",
             "Vulc", "Wyrm", "Xiph", "Ym", "Zeph", "Aeg", "Aur", "Drac", "Eld", "Fen", "Gol",
             "Hyd", "Ign", "Jorm", "Kra", "Lupi", "Medus", "Nag", "Oph", "Pyrr", "Quetzal",
