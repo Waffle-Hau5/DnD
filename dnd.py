@@ -2,7 +2,7 @@ import random
 from playerdnd import PlayerDnd as p
 
 name = input("What is your name?")
-player = p(name=name, lvl=1, race=None, hp=100, attack=100, defense=100)
+player = p(name=name, lvl=1, exp= 0, race=None, hp=100, attack=100, defense=100)
 
 # these are latin pre/suffixes that combine to create a name for the monsters encountered in the lambda function below.
 prefixes = ["Aegi", "Aure", "Draco", "Eldar", "Fenr", "Goli", "Hydr", "Igni", "Jormung", "Krak",
